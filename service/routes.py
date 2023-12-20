@@ -78,8 +78,8 @@ def list_accounts():
 # READ AN ACCOUNT
 ######################################################################
 
-@app.route("/accounts/<int:account_id>", methods=["GET"])
 
+@app.route("/accounts/<int:account_id>", methods=["GET"])
 def get_accounts(account_id):
     """
     Reads an Account
